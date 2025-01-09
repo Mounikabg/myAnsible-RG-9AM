@@ -15,7 +15,7 @@
      state: started
     when: ansible_os_family=="Debian"
 
-  - name: install http webserver on RedHat nodes
+  - name: install httpd webserver on RedHat nodes
     dnf:
      name: httpd
      state: present
