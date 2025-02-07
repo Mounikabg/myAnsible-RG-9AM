@@ -6,10 +6,10 @@
     - include_tasks: myfile.yml
     - name: create a directory
       file:
-      path: /home/mohan88/myfolder
-      state: directory
+        path: /home/mohan88/myfolder
+        state: directory
     
     - name: copy static file
       copy:
-      src: mystaticfile
-      dest: ome/mohan88/myfolder/mystaticfile
+        src: mystaticfile
+        dest: ome/mohan88/myfolder/mystaticfile
