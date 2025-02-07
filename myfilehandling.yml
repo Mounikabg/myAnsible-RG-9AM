@@ -13,3 +13,9 @@
     copy:
       src: mystaticfile
       dest: /home/mohan88/myfolder/mystaticfile
+
+  - name: download internet files
+    get_url:
+      url: http://example.com/path/file.conf
+      dest: /home/mohan88/myfolder/mystaticfile
+      force_basic_auth: yes
