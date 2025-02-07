@@ -16,6 +16,6 @@
 
   - name: download internet files
     get_url:
-      url: http://example.com/path/file.conf
+      url: https://github.com/iam-veeramalla/Azure-zero-to-hero/blob/main/Day-01/01-basics.md
       dest: /home/mohan88/myfolder/mystaticfile
       force_basic_auth: yes
