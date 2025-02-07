@@ -12,4 +12,4 @@
     - name: copy static file
       copy:
         src: mystaticfile
-        dest: ome/mohan88/myfolder/mystaticfile
+        dest: /home/mohan88/myfolder/mystaticfile
