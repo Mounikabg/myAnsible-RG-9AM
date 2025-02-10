@@ -4,3 +4,4 @@
   service:
     name: apache2
     state: restart
+  notify: restart webserver
