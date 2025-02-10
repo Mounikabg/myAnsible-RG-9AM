@@ -2,4 +2,4 @@
 - hosts: myappservers
   become: yes
   roles:
-  - {role: mytomcaterole, when: ansible_os_family=="Debian"}
+  - {roles: mytomcaterole, when: ansible_os_family=="Debian"}
